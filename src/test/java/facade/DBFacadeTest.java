@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import javax.xml.transform.Result;
 import java.sql.*;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class DBFacadeTest {
     Connection con = null;
     private facade.DBconnector DBconnector;
